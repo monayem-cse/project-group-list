@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+}
+.cse-dept {
+  padding-top: 20px;
+}
+.cse-dept img {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group-list {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.group-list h1 {
+  padding-bottom: 5px;
+  text-align: center;
+  color: #303188;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+table {
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  font-weight: 300;
+}
