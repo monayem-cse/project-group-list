@@ -3,11 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+table,
+tr,
+td,
+th {
+  font-family: inherit;
+}
 body {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #222;
+  font-family: "Poppins", sans-serif;
+  padding: 60px;
 }
 .cse-dept {
   padding-top: 20px;
